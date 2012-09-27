@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApartmentExpenseManager.BusinessLogic", "ApartmentExpenseManager.BusinessLogic\ApartmentExpenseManager.BusinessLogic.csproj", "{EEF6C5D6-2CAB-4E65-9E73-F86F5C813680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApartmentExpenseManager.DataAccess", "ApartmentExpenseManager.DataAccess\ApartmentExpenseManager.DataAccess.csproj", "{4EADED4E-8F6B-4311-805D-C8BD208CA6FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApartmentExpenseManager.Web", "ApartmentExpenseManager.Web\ApartmentExpenseManager.Web.csproj", "{EA62C283-14B4-4BF5-B699-B047BF541322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApartmentExpenseManager.Web.Tests", "ApartmentExpenseManager.Web.Tests\ApartmentExpenseManager.Web.Tests.csproj", "{6E6FA84B-E642-4FC2-A820-06B7BE7B1666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApartmentExpenseManager.DataAccess.Tests", "ApartmentExpenseManager.DataAccess.Tests\ApartmentExpenseManager.DataAccess.Tests.csproj", "{EDAA2915-21A8-4559-9649-EFD9049266A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6302A3AA-EC6F-4257-8DEA-FADF724E2641}"
+	ProjectSection(SolutionItems) = preProject
+		ApartmentExpenseManager.vsmdi = ApartmentExpenseManager.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApartmentExpenseManager.BusinessLogic.Tests", "ApartmentExpenseManager.BusinessLogic.Tests\ApartmentExpenseManager.BusinessLogic.Tests.csproj", "{87FE23C5-29FF-44A7-9BE9-F285EF803B6A}"
+EndProject
+Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "ApartmentExpenseManager.Sql", "ApartmentExpenseManager.Sql\ApartmentExpenseManager.Sql.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ApartmentExpenseManager.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEF6C5D6-2CAB-4E65-9E73-F86F5C813680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF6C5D6-2CAB-4E65-9E73-F86F5C813680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF6C5D6-2CAB-4E65-9E73-F86F5C813680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF6C5D6-2CAB-4E65-9E73-F86F5C813680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EADED4E-8F6B-4311-805D-C8BD208CA6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EADED4E-8F6B-4311-805D-C8BD208CA6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EADED4E-8F6B-4311-805D-C8BD208CA6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EADED4E-8F6B-4311-805D-C8BD208CA6FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA62C283-14B4-4BF5-B699-B047BF541322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA62C283-14B4-4BF5-B699-B047BF541322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA62C283-14B4-4BF5-B699-B047BF541322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA62C283-14B4-4BF5-B699-B047BF541322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6FA84B-E642-4FC2-A820-06B7BE7B1666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6FA84B-E642-4FC2-A820-06B7BE7B1666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6FA84B-E642-4FC2-A820-06B7BE7B1666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6FA84B-E642-4FC2-A820-06B7BE7B1666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDAA2915-21A8-4559-9649-EFD9049266A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAA2915-21A8-4559-9649-EFD9049266A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAA2915-21A8-4559-9649-EFD9049266A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAA2915-21A8-4559-9649-EFD9049266A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87FE23C5-29FF-44A7-9BE9-F285EF803B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87FE23C5-29FF-44A7-9BE9-F285EF803B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87FE23C5-29FF-44A7-9BE9-F285EF803B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87FE23C5-29FF-44A7-9BE9-F285EF803B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
